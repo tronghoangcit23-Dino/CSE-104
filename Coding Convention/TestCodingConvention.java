@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class TestCodingConvention {
     public static void main(String[] args) {
         // Khai báo biến 
-        Scanner scanner = new Scanner(System.in);
-        int score = scanner.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int score = sc.nextInt();
 
         // Logic kiểm tra kết quả 
         if (score >= 5) {
@@ -19,6 +19,6 @@ public class TestCodingConvention {
 
         System.out.println("Average Score: " + averageScore);
 
-        scanner.close();
+        sc.close();
     }
 }
